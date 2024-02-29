@@ -1,9 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 
-# spotify password for amit.9993013869@gmail.com, Amiti$9999
-
-
 # Scraping the billboard 100
 date = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD: ")
 billboard_url = "https://www.billboard.com/charts/hot-100"
@@ -17,8 +14,8 @@ song_names = [song.getText().strip() for song in songs]
 # spotify authetication
 
 # spotify credenials
-client_id = "cc823fb148aa49d68644c0beaa8ee96c"
-client_secret = "d3b69c71d0cc4c7ebeb20caf9f9395a8"
+client_id = your_client_id
+client_secret = your_client_secret
 
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
