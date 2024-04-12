@@ -22,7 +22,7 @@ venv is created for a file or a folder only not globally , like a enviroment sol
  Get-ChildItem Env:    ( list of enviroment variables)**
 
 ### Enviroment variables: 
-    are set for the enviroment and has string values an can be used in our application or code
+are set for the enviroment and has string values an can be used in our application or code
 to create enviroment vriables commands
 
 export ENVIROMENT_VARIABLE_NAME=value
